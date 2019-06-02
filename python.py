@@ -13,11 +13,11 @@ yturl='https://document.online-convert.com/convert-to-'
 searchurl = yturl+convert
 browser = webdriver.Chrome()
 browser.get(searchurl)
-time.sleep(4)
+time.sleep(1)
 classname = browser.find_element_by_class_name('uploadButton')
 classname.click() 
-time.sleep(10)
+time.sleep(15)
 
 clickbutton = browser.find_element_by_id("multifile-submit-button-main")
 clickbutton.click()
-time.sleep(5)
+time.sleep(1)
